@@ -26,7 +26,7 @@ while True:
 
         if filter not in users.find({},{"_id":0,"username":1,"password":1}):
             system("cls")
-            print("kullanıcı bulunamadı!")
+            print("Hatalı Giriş!")
 
     
         else:
